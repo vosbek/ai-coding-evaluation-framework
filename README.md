@@ -1,4 +1,23 @@
 # AI Coding Assistant Evaluation Framework
+
+A comprehensive, standardized framework for objectively evaluating AI coding assistants in enterprise environments.
+
+## Quick Start
+
+### Linux/macOS
+```bash
+chmod +x setup.sh && ./setup.sh
+source activate.sh
+python -m src.logging.cli start
+```
+
+### Windows
+```cmd
+setup.bat
+activate.bat
+python -m src.logging.cli start
+```
+
 ## Complete Implementation Plan
 
 ## Architecture Overview

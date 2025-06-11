@@ -1,0 +1,22 @@
+{
+  "database": {
+    "type": "sqlite",
+    "path": "./data/evaluation_framework.db",
+    "backup_path": "./data/backups/",
+    "enable_wal_mode": true,
+    "enable_foreign_keys": true,
+    "connection_pool_size": 5,
+    "query_timeout_ms": 30000
+  },
+  "schema": {
+    "version": "1.0.0",
+    "migration_path": "./src/database/migrations/",
+    "seed_data_path": "./src/database/seeds/"
+  },
+  "backup": {
+    "enabled": true,
+    "frequency": "daily",
+    "retention_days": 30,
+    "compress": true
+  }
+}

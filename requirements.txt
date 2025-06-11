@@ -1,0 +1,35 @@
+# Core dependencies
+fastapi==0.108.0
+uvicorn==0.25.0
+sqlalchemy==2.0.25
+sqlite3  # Built into Python
+pydantic==2.5.3
+python-dotenv==1.0.0
+
+# Database management
+alembic==1.13.1
+
+# File monitoring
+watchdog==3.0.0
+
+# Data analysis and reporting
+pandas==2.1.4
+matplotlib==3.8.2
+seaborn==0.13.0
+jinja2==3.1.2
+
+# CLI interface
+click==8.1.7
+rich==13.7.0
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.2
+
+# Development tools
+black==23.12.1
+flake8==7.0.0
+mypy==1.8.0
